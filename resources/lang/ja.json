@@ -1,0 +1,17 @@
+{
+    "Book Register":"新刊登録",
+    "Title":"タイトル",
+    "Auther":"著者",
+    "Category":"カテゴリー",
+    "Impressions":"感想",
+    "Register":"登録",
+    "Login":"ログイン",
+    "Detail":"詳細",
+    "Book List":"読了本リスト",
+    "Go Detail":"詳細確認",
+    "Go Edit":"編集する",
+    "Go Delete":"削除する",
+    "Book Updater":"編集画面",
+    "Registered.":"登録完了しました！",
+    "Invalid operation was performed.":"不正な値が入力されました！"
+}
