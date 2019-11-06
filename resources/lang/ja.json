@@ -6,6 +6,7 @@
     "Impressions":"感想",
     "Register":"登録",
     "Login":"ログイン",
+    "Logout":"ログアウト",
     "Detail":"詳細",
     "Book List":"読了本リスト",
     "Go Detail":"詳細確認",
@@ -13,5 +14,7 @@
     "Go Delete":"削除する",
     "Book Updater":"編集画面",
     "Registered.":"登録完了しました！",
-    "Invalid operation was performed.":"不正な値が入力されました！"
+    "Invalid operation was performed.":"不正な値が入力されました！",
+    "Deleted.":"削除しました！",
+    "You are loggined.":"ログインしました！"
 }

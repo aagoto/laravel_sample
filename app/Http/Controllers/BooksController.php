@@ -24,7 +24,7 @@ class BooksController extends Controller
         $book = new Book;
         $book -> fill($request->all())->save();
 
-        return redirect('books/new')->with('flash_message',__('Registered.'));
+        return redirect('books')->with('flash_message',__('Registered.'));
     }
 
     public function index()

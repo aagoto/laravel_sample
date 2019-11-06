@@ -9,6 +9,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h3 class="card-title">{{$book->title}}</h3>
+                        <h4 style="font-size:15px;">{{$book->auther}}</h4>
+                        <h5 style="font-size:10px;">{{$book->created_at}}</h5>
                         <a href="{{ route('books.show',$book->id) }}" class="btn btn-primary">{{__('Go Detail') }}</a>
                         <a href="{{ route('books.edit',$book->id) }}" class="btn btn-warning">{{__('Go Edit') }}</a>
                         <form action="{{ route('books.destroy',$book->id) }}" method="post" class="d-inline">

@@ -47,13 +47,6 @@
                                 @if (Route::has('register'))
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 @endif
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('books') }}">{{ __('Book List') }}</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('books.new') }}">{{ __('Book Register') }}</a>
-                            </li>
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -65,6 +58,12 @@
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('books') }}";>
+                                        {{ __('Book List') }}
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('books.new') }}";>
+                                        {{ __('Book Register') }}
                                     </a>
                                     
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
