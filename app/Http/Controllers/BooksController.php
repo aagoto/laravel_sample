@@ -51,7 +51,7 @@ class BooksController extends Controller
 
         $book = Book::find($id);
         $book ->fill($request->all())->save();
-        return redirect('/books')->with('flash_message',('Registered.'));
+        return redirect('/books')->with('flash_message',__('Updated.'));
     }
 
     public function destroy($id)
@@ -62,7 +62,7 @@ class BooksController extends Controller
 
         $book = Book::find($id);
         $book ->delete();
-        return redirect('/books')->with('flash_message',('Deleted.'));
+        return redirect('/books')->with('flash_message',__('Deleted.'));
     }
 
     public function show($id)
